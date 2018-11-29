@@ -63,7 +63,7 @@ public class EditorActivity extends AppCompatActivity implements LoaderManager.L
         @Override
         public boolean onTouch(View view, MotionEvent motionEvent) {
             mPetEdited = true;
-            return true;
+            return false;
         }
     };
 
